@@ -24,5 +24,5 @@ pip install -r requirements.txt
 
 4. Run the script, then switch back to the game.
 ```python
-python fh5farm.py
+python fh5_sp_farm.py
 ```
