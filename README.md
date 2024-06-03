@@ -1,5 +1,14 @@
 # Forza Horizon 5 AFK Skill Point Farm
-Please note that this script currently only works when the in-game resolution is set to 2560x1600. It is still working as of June 3, 2024. 
+Please note that this script currently only works when the in-game resolution is set to 2560x1600. It is still working as of June 3, 2024.
+
+**Prerequisites**:
+* You must own a Lamborghini Sesto Elemento Forza Edition.
+* The following difficulty settings must be set:
+  * Steering - Auto
+  * Shifting - Auto
+
+<!-- TODO: Add share codes for map and tune -->
+<!-- TODO: Add conversion to other resolutions (if possible) -->
 
 **WARNING: This script goes against the [Forza Code of Conduct](https://support.forzamotorsport.net/hc/en-us/articles/360035563914-Forza-Code-of-Conduct). USE THIS AT YOUR OWN RISK!!**
 
