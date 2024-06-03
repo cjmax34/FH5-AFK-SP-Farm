@@ -26,7 +26,7 @@ while not keyboard.is_pressed('q'):
     # Check if the 'Start Race Event' button is visible
     while not keyboard.is_pressed('q'):
         try:
-            start_race_event = pyautogui.locateOnScreen('startraceevent.png', grayscale=True, confidence=0.8)
+            start_race_event = pyautogui.locateOnScreen('/images/startraceevent.png', grayscale=True, confidence=0.8)
             if start_race_event:
                 for _ in range(10): # Multiple clicks to ensure the button is clicked
                     click(448, 586)
@@ -42,7 +42,7 @@ while not keyboard.is_pressed('q'):
     while not keyboard.is_pressed('q'):
         keyboard.press('w')
         try:
-            finished = pyautogui.locateOnScreen('finished.png', grayscale=True, confidence=0.8)
+            finished = pyautogui.locateOnScreen('/images/finished.png', grayscale=True, confidence=0.8)
             if finished:
                 keyboard.release('w') # Release the 'W' key once the race has finished
                 break
@@ -55,7 +55,7 @@ while not keyboard.is_pressed('q'):
     # Check if the 'Restart' button is visible
     while not keyboard.is_pressed('q'):
         try:
-            restart = pyautogui.locateOnScreen('restart.png', grayscale=True, confidence=0.8)
+            restart = pyautogui.locateOnScreen('/images/restart.png', grayscale=True, confidence=0.8)
             if restart:
                 keyboard.press('x') # Shortcut for 'Restart' button
                 time.sleep(0.3)
