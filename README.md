@@ -15,23 +15,23 @@ Please note that this script currently only works when the in-game resolution is
 ## How to run
 1. Clone the repository.
 
-```python
+```
 git clone git@github.com:cjmax34/FH5-AFK-SP-Farm.git
 ```
 
 2. Change directory.
-```python
+```
 cd FH5-AFK-SP-Farm
 ```
 
 3. Create a virtual environment and install the required dependencies by running the following commands (in order):
-```python
+```
 python -m venv env
 env\Scripts\activate
 pip install -r requirements.txt
 ```
 
 4. Run the script, then switch back to the game.
-```python
+```
 python fh5_sp_farm.py
 ```
